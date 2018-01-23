@@ -28,8 +28,7 @@
   height: 100px;
   width: 100vw;
   z-index: 10001;
-  position: absolute;
-
+  position: fixed;
   .logo{
     @media (min-width: 320px) {
       margin-left: 20px;
@@ -518,7 +517,7 @@
         }
       }
     }
-  } 
+  }
   .slide-3{
     width: 100%;
     height: 100%;
@@ -658,6 +657,131 @@
       }
     }
   }
+}
+#about-us{
+  background-color: #FFFFFF;
+  height: 530px;
+  @media screen and (min-width: 320px) and (max-width: 767px){
+    flex-direction: column;
+    display: flex;
+  }
+  .about-us-title{
+    margin-bottom: 30px;
+    h2{
+      font-family: 'Montserrat';
+      color:  #000000;
+      font-size: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+      font-weight: 600;
+      line-height: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 63px;
+    }
+    h3{
+      font-family: Montserrat;
+      color:  #aeaeae;
+      font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+      font-weight: 600;
+      line-height: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .about-us-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    @media screen and (min-width: 320px) and (max-width: 767px){
+      flex-direction: column;
+    }
+    &-text{
+      @media screen and (min-width: 320px) and (max-width: 767px){
+        order: 2;
+        justify-content: space-evenly;
+      }
 
+      p{
+        @media screen and(min-width: 320px) and (max-width: 767px) {
+          font-family: 'Montserrat';
+          color:  #242424;
+          font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          font-weight: 300;
+          line-height: 25px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          text-align: center;
+          width: 85%;
+          margin: 20px auto;
+        }
+        @media screen and(min-width: 768px) and (max-width: 1023px){
+          font-family: 'Montserrat';
+          color:  #242424;
+          font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          font-weight: 300;
+          line-height: 20px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          text-align: center;
+          width: 40vh;
+          margin: 20px auto;
+        }
+        @media screen and(min-width: 1024px){
+          font-family: 'Montserrat';
+          color:  #242424;
+          font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          font-weight: 300;
+          line-height: 20px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          text-align: left;
+          width: 80%;
+          margin: 20px auto;
+        }
+      }
+      .about-us-content-text-btn{
+        margin: 30px auto;
+        height: 45px;
+        width: 195px;
+        background-color: #b88b58;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        transition: 0.25s ease-in-out;
+        &:hover{
+          transform: scale(1.1);
+        }
+        a{
+          padding-top: 13px;
+          width: 100%;
+          height: 100%;
+          font-family: 'Montserrat';
+          color:  #ffffff;
+          font-size: 12px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          font-weight: 700;
+          line-height: 18px;/* Przybliżenie (wynika z podstawienia czcionki) */
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+    &-video{
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        order: 1;
+        width: 100%;
+      }
+      width: 45vw;
+      text-align: center;
+      video{
+        margin: 0 auto;
 
+        @media screen and (min-width: 320px) and (max-width: 767px) {
+          width: 80%;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1023px){
+          width: 40vw;
+        }
+        @media screen and (min-width: 1024px){
+          width: 400px;
+          box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.4);
+        }
+      }
+    }
+  }
 }
