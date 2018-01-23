@@ -89,6 +89,11 @@ $(document).ready(function () {
             $('.navbar-menu-list').css("left", "0%");
         }
     });
+
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        autoHeight: true
+    });
 });
 
 /***/ }),
