@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+.title{
+  margin-bottom: 30px;
+  h2{
+    font-family: 'Montserrat';
+    color:  #000000;
+    font-size: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 600;
+    line-height: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 63px;
+  }
+  h3{
+    font-family: Montserrat;
+    color:  #aeaeae;
+    font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 600;
+    line-height: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.services-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 285px;
+  height: 100%;
+  img{
+    margin-top: 15px;
+    margin-bottom: 37px;
+  }
+}
+.active_link{
+  border-bottom: 5px solid #b88b58;
+}

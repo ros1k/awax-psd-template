@@ -92,17 +92,6 @@ $(document).ready(function () {
     ////////////////////////////////////////////////////////////
 
 
-    $(window).scroll(function (e) {
-        console.log($(window).scrollTop());
-        if ($(window).scrollTop() > 0) {
-            $('#navbar').css("height", "66px !important");
-            $('navbar-menu .navbar-menu-list li').css("height", "calc((66px - 14px) / 2) 5px !important");
-        } else {
-            $('#navbar').css("height", "100px");
-            $('.navbar-menu .navbar-menu-list li').css("height", "calc((100px - 14px) / 2) 5px");
-        }
-    });
-
     ////////////////////////////////////////////////////////////
     $(".owl-carousel").owlCarousel({
         items: 1,
