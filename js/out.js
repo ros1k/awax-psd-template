@@ -93,12 +93,35 @@ $(document).ready(function () {
 
 
     ////////////////////////////////////////////////////////////
-    $(".owl-carousel").owlCarousel({
+    $(".owl-home").owlCarousel({
         items: 1,
-        autoHeight: true
+        autoHeight: true,
+        dots: true,
+        dotData: true,
+        pagination: true
     });
     ////////////////////////////////////////////////////////////
 
+    $('.our-team-carousel').owlCarousel({
+        autoWidth: true,
+        responsive: {
+            0: {
+                items: 1,
+                center: true
+            },
+            768: {
+                items: 2,
+                center: true,
+                margin: -25
+            },
+            1200: {
+                items: 3
+
+            }
+
+        }
+
+    });
 });
 
 /***/ }),

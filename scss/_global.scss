@@ -6,7 +6,7 @@
 .title{
   margin-bottom: 30px;
   h2{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     color:  #000000;
     font-size: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
     font-weight: 600;
@@ -16,7 +16,7 @@
     margin-top: 63px;
   }
   h3{
-    font-family: Montserrat;
+    font-family: 'Montserrat',sans-serif;
     color:  #aeaeae;
     font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
     font-weight: 600;
@@ -39,4 +39,9 @@
 }
 .active_link{
   border-bottom: 5px solid #b88b58;
+}
+.p-item{
+  height: 165px;
+  width: 255px;
+  margin: 15px;
 }
