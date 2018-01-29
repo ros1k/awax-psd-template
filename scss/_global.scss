@@ -83,6 +83,27 @@ body{
     margin: 10px 50px;
   }
 }
+.contact-us-input{
+  background-color:  #ededed;
+  border: none;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #aeaeae;
+  padding-bottom: 10px;
+  color:#FFFFFF;
+  transition: border-bottom-color 0.25s ease-in-out;
+  &::placeholder{
+    font-family: 'Montserrat',sans-serif;
+    color:  #aeaeae;
+    font-size: 13px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 500;
+    line-height: 25px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: left;
+  }
+  &:focus{
+    border-color: #b88b58 ;
+    outline: none;
+  }
+}
 .contact-item{
   height: 40px;
   width: 100%;
