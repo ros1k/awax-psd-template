@@ -118,9 +118,12 @@ $(document).ready(function () {
                 items: 3
 
             }
-
         }
-
+    });
+    ////////////////////////////////////////////////////////////
+    $(".happy-clients-carousel").owlCarousel({
+        items: 1,
+        dots: true
     });
 });
 
