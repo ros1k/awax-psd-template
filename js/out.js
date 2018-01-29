@@ -103,11 +103,11 @@ $(document).ready(function () {
     ////////////////////////////////////////////////////////////
 
     $('.our-team-carousel').owlCarousel({
-        autoWidth: true,
+
         responsive: {
             0: {
-                items: 1,
-                center: true
+                items: 1
+
             },
             768: {
                 items: 2,
@@ -125,6 +125,9 @@ $(document).ready(function () {
         items: 1,
         dots: true
     });
+
+    // AIzaSyDMLe_vZ1ssLw9SyUm2wyKOrheMo_Ui93o googlemaps api key
+
 });
 
 /***/ }),
