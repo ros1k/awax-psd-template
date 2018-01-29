@@ -1,4 +1,3 @@
-# awax-psd-template
-===============
+awax-psd-template
 --------------------------------------------------------------------------------------------------
 https://ros1k.github.io/awax-psd-template/
