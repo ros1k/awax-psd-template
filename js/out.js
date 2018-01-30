@@ -125,6 +125,10 @@ $(document).ready(function () {
         items: 1,
         dots: true
     });
+    $(".premium-content").owlCarousel({
+        items: 1,
+        dots: true
+    });
 
     // AIzaSyDMLe_vZ1ssLw9SyUm2wyKOrheMo_Ui93o googlemaps api key
 

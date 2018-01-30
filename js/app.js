@@ -56,6 +56,10 @@ $(document).ready(function(){
         items:1,
         dots:true,
     });
+    $(".premium-content").owlCarousel({
+        items:1,
+        dots:true,
+    });
 
 
 
